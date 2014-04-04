@@ -1,0 +1,12 @@
+Source: ros-groovy-rovio
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/rovio
+Standards-Version: 3.9.2
+
+Package: ros-groovy-rovio
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-rovio-av, ros-groovy-rovio-ctrl, ros-groovy-rovio-shared
+Description: Metapackage for the WowWee Rovio ROS Packages
