@@ -1,0 +1,12 @@
+Source: ros-groovy-rovio-shared
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 7.0.50~), libcurl4-openssl-dev, ros-groovy-catkin, ros-groovy-message-generation, ros-groovy-roscpp, ros-groovy-std-msgs
+Homepage: http://ros.org/wiki/rovio_shared
+Standards-Version: 3.9.2
+
+Package: ros-groovy-rovio-shared
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcurl4-openssl-dev, ros-groovy-message-runtime, ros-groovy-roscpp, ros-groovy-std-msgs
+Description: Standard Messages and Services for the WowWee Rovio
