@@ -1,0 +1,12 @@
+Source: ros-groovy-rovio-ctrl
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-roscpp, ros-groovy-rovio-shared, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Homepage: http://ros.org/wiki/rovio_ctrl
+Standards-Version: 3.9.2
+
+Package: ros-groovy-rovio-ctrl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs, ros-groovy-joy, ros-groovy-roscpp, ros-groovy-rovio-av, ros-groovy-rovio-shared, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Description: Control and Query the Movement Devices on a WowWee Rovio
