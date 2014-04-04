@@ -1,0 +1,12 @@
+Source: ros-hydro-rovio
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/rovio
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rovio
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-rovio-av, ros-hydro-rovio-ctrl, ros-hydro-rovio-shared
+Description: Metapackage for the WowWee Rovio ROS Packages
