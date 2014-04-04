@@ -1,0 +1,12 @@
+ros-groovy-rovio-av (0.2.1-0precise) precise; urgency=high
+
+  * launch bug fixed
+  * rovio_shared catkinized
+  * rovio_ctrl catkinized
+  * rovio_av catkinized
+  * initial import
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rctoris@wpi.edu>  Fri, 04 Apr 2014 04:00:00 -0000
+
+
