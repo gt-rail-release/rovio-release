@@ -1,0 +1,12 @@
+Source: ros-hydro-rovio-ctrl
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-roscpp, ros-hydro-rovio-shared, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/rovio_ctrl
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rovio-ctrl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-joy, ros-hydro-roscpp, ros-hydro-rovio-av, ros-hydro-rovio-shared, ros-hydro-sensor-msgs, ros-hydro-std-msgs
+Description: Control and Query the Movement Devices on a WowWee Rovio
