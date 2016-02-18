@@ -1,0 +1,12 @@
+Source: ros-hydro-rovio-av
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-roscpp, ros-hydro-rovio-shared, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/rovio_av
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rovio-av
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-gscam, ros-hydro-roscpp, ros-hydro-rovio-shared, ros-hydro-std-msgs
+Description: Control and Query the Audio/Video Devices on a WowWee Rovio
