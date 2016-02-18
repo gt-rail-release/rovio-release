@@ -1,0 +1,17 @@
+ros-hydro-rovio-shared (0.2.2-0quantal) quantal; urgency=high
+
+  * Update package.xml
+  * Contributors: David Kent
+
+ -- Russell Toris <rctoris@wpi.edu>  Thu, 18 Feb 2016 05:00:00 -0000
+
+ros-hydro-rovio-shared (0.2.1-0quantal) quantal; urgency=high
+
+  * build errors fixed
+  * rovio_shared catkinized
+  * initial import
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rctoris@wpi.edu>  Fri, 04 Apr 2014 04:00:00 -0000
+
+
